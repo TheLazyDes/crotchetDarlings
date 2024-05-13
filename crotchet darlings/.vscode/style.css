@@ -125,6 +125,7 @@ a{ text-decoration: none;
     padding: 30px;
     background-color: black;
     color: white;
+    margin-bottom: 0px;
 }
 .customer-section{
     background-color: #f96635;
@@ -143,3 +144,24 @@ p{font-family: Tinos;}
 h3{font-family: caveat;}
 a{ text-decoration: none;}
 
+.sidenavigation{ 
+    margin-top: 40px ;
+    font-size: 25px;
+    justify-content: left;
+    background-color: #93d3ae;
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+   
+}
+.nav{
+   padding-top: 5px;
+   
+   width: 20%;
+}
+.nav.p{
+    color: #faecb6;
+}
